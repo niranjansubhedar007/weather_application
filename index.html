@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    
+<div class="background">
+    <div class="container">
+        <div class="inputbar">
+            <input type="text"placeholder="Enter Your Location Here..." class="inputbox">
+            <button class="fa-solid fa-magnifying-glass" id="searchbtn"> </button>
+        </div>
+         
+         <div class="notsearch" id="notsearch" >
+            <h1>Sorry, Location Not Found!</h1>
+            <img src="./images/error.img-removebg-preview.png" alt="">
+
+         </div>
+
+         
+<div class="weatherbody">
+
+         <div class="image">
+           <img src="./images/cloud.img-removebg-preview.png" alt=""class="weatherimg">
+         </div>
+         <div class="weatherbox">
+            <p class="temperature">0 <sup>°C</sup></p>
+            <p class="description">Light rain</p>
+         </div>
+
+
+
+         <div class="weatherdeatail">
+            <div class="humadity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humadity">0%</span>
+                    <p>Humadity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="windspeed">0km/H</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+         </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/fc6d478191.js" crossorigin="anonymous"></script>
+</body>
+</html>
